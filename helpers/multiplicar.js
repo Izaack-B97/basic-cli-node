@@ -10,9 +10,9 @@ const crearArchivo = async ( base = 5 ) => {
         }
 
         console.clear();
-        console.log('==============')
+        console.log('=========================')
         console.log(`Tabla de ${ base }`)
-        console.log('==============')
+        console.log('=========================')
         console.log( salida );
 
         fs.writeFileSync( `tabla-${ base }.txt`, salida )
