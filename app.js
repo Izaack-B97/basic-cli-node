@@ -10,7 +10,7 @@ console.log( argumento );
 
 // console.log('base de yargs: ', argumento.base);
 
-crearArchivo( argumento.b, argumento.l )
+crearArchivo( argumento.b, argumento.l, argumento.h )
     .then(resp => console.log( resp ) )
     .catch(err => console.log( err ) );
 	
